@@ -164,3 +164,25 @@ button {
   letter-spacing: -0.56px;
   text-transform: uppercase;
 }
+
+.image-wrap {
+  position: relative;
+  margin: 0 48px 16px 49px;
+}
+
+.image-ellipse {
+  display: block;
+  margin: auto 0;
+  width: 186px;
+  height: 280px;
+  transform: rotate(-105deg);
+  border-radius: 500px;
+  background: #faf3e7;
+}
+
+.image-girl {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+}
